@@ -1,6 +1,6 @@
 # These substitutions allow the end user to override certain values
 substitutions:
-  name: "esp32-test-led"
+  name: "esp-test-led"
 
 esphome:
   name: "${name}"
@@ -30,7 +30,7 @@ ota:
 
 # This should point to the public location of this yaml file.
 dashboard_import:
-  package_import_url: github://zafari27/esp32-test-led/esp32.yaml@main
+  package_import_url: github://zafari27/esp-test-led/esp32.yaml@main
 
 wifi:
   # Set up a wifi access point using the device name above
